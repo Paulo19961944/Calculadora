@@ -5,7 +5,7 @@ Projeto feito pelo Hora de Codar com algumas melhorias. Pois não tinha a integr
 
 
 
-Melhorias a serem feitas
+# Melhorias a serem feitas
 
 1 -> Aparecer o valor na tela abaixo que é maior e sem o calculo também
 
@@ -16,7 +16,7 @@ Melhorias a serem feitas
 
 
 
-Modo de Usar
+# Modo de Usar
 
 1 -> Pressione o botão e faça o calculo
 
