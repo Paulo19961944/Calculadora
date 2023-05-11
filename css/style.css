@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #000;
+    background-color: #404040;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,7 +17,7 @@ body{
 #calc{
     width: 400px;
     padding: 0.5em;
-    background-color: #404040;
+    background-color: black;
     color: white;
     display: flex;
     flex-direction: column;
@@ -66,6 +66,7 @@ body{
     height: 4em;
     font-size: 1.2em;
     font-weight: bold;
+    color: white;
     background-color: #FF8000;
     cursor: pointer;    
 
@@ -73,7 +74,7 @@ body{
 
 
 #buttons-container .number{
-    background-color: #33FFFF;
+    background-color: #404040;
 
 }
 
@@ -86,9 +87,9 @@ body{
 
 #buttons-container #equal-btn{
     grid-column: span 2;
-    background-color: #FFFF00;
+    background-color: #66b2ff;
 }
 
 #buttons-container #equal-btn:hover{
-    background-color: #FFFF66;
+    background-color: #99CCFF;
 }
