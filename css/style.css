@@ -87,9 +87,9 @@ body{
 
 #buttons-container #equal-btn{
     grid-column: span 2;
-    background-color: #66b2ff;
+    background-color: #00CC00;
 }
 
 #buttons-container #equal-btn:hover{
-    background-color: #99CCFF;
+    background-color: #00FF00;
 }
