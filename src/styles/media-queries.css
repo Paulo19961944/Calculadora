@@ -1,0 +1,29 @@
+@media screen and (max-width:1024px) {
+    main {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    main {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    main {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    main {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    main {
+        width: 85%;
+    }
+}
