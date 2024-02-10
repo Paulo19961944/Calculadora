@@ -61,7 +61,7 @@ equalBtn.addEventListener("click", () => {
     secondNumber = parseFloat(display.textContent);
     Calcular();
     display.textContent = "";
-    display.textContent += result;
+    display.textContent += result.toFixed(2);
 });
 
 // Função Calcular
