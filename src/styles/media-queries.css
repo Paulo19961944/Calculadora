@@ -1,0 +1,23 @@
+@media screen and (max-width: 425px) {
+    body{
+        margin: 48px 16px;
+    }
+
+    header h1, main section .display{
+        font-size: 1.521rem;
+    }
+
+    main section{
+        width: 300px;
+    }
+
+    main section button{
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width:320px) {
+    main section{
+        width: 280px;
+    }
+}
