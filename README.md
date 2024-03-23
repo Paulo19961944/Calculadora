@@ -1,8 +1,8 @@
-# Calculadora JS
+# CALCULADORA JA
 
 Essa é uma calculadora feita em HTML, CSS e JS. Foi um desafio que eu me propus a fazer em 1 hora e foi feito. Foi feito além dos códigos, a lógica de programação e media-queries, ou seja, foi muito bom para o meu aprendizado. Segue o link do projeto abaixo.
 
-# Atualizações
+# ATUALIZAÇÕES
 
 Nesse projeto eu fiz modificações no projeto para se adequar a conceitos de UI/UX Designer, funcionalidade em JavaScript, Código Limpo e bem organizado também. Algumas coisas que foram feitas no inicio do projeto não foram ditas, mas iremos falar aqui mesmo.
 
@@ -26,5 +26,5 @@ No JavaScript foi selecionado os elementos do HTML e uma função para adicionar
 
 Bem, foi adicionado algumas melhorias, porém eu sempre mexo nos meus projetos, fazer atualizações é uma forma incrível, pois permite melhorar cada vez mais. O projeto é simples, então não encontra muitos desafios. Espero que tenham gostado e um fraternal abraço a todos os devs.
 
-# Link do Projeto
+# LINK DO PROJETO
 https://paulo19961944.github.io/Calculadora/
