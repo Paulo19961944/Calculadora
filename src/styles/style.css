@@ -1,49 +1,53 @@
-body{
-    align-items: center;
-    background-color: #f0f0f0;
-    font-family: 'Playfair Display', serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Neuton", serif;
+    font-weight: 400;
+    font-style: normal;
+      
 }
 
-header{
-    margin: 2rem 0;
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D7D0C8;
 }
 
 header h1{
-    font-family: 'Dosis', sans-serif;
-}
-
-main{
-    border: 1px solid #000;
-    background-color: #333;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-    height: 400px;
+    font-size: 2.027rem;
+    margin: 2rem 0;
 }
 
 main section{
-    width: 80%;
+    background-color: #4C5B5C;
+    width: 350px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid #000;
 }
 
 main section .display{
-    background-color: #29fd29;
-    border: 1px solid #000;
+    font-size: 2.027rem;
     display: flex;
-    align-items: center;
+    flex-wrap: nowrap;
     justify-content: center;
-    font-size: 2rem;
-    font-weight: bold;
+    align-items: center;
+    overflow: auto;
+    border: 1px solid #000;
+    background-color: #0f0;
     margin: 2rem 0;
-    width: 100%;
     height: 80px;
+    width: 75%;
 }
 
 main section .keys{
-    width: 80%;
+    width: 200px;
     height: 200px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -51,10 +55,14 @@ main section .keys{
 }
 
 main section button{
-    border: 1px solid #000;
+    border: none;
+    text-align: center;
     border-radius: 4px;
+    background-color: #D7D0C8;
+    font-size: 1rem;
 }
 
 main section button:hover{
     cursor: pointer;
+    transform: scale(1.03);
 }
