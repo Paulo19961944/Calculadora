@@ -1,23 +1,30 @@
+/*CELULAR*/
 @media screen and (max-width: 425px) {
+    /*CONTEÚDO PRINCIPAL*/
     body{
-        margin: 48px 16px;
+        margin: 48px 16px; /*Margem de 48 px (Top e Bottom) e 16 px (Left e Right)*/
     }
 
+    /*DISPLAY E TÍTULO*/
     header h1, main section .display{
-        font-size: 1.521rem;
+        font-size: 1.521rem; /*Tamanho da fonte de 1.521rem*/
     }
 
+    /*CONTEÚDO DA CALCULADORA*/
     main section{
-        width: 300px;
+        width: 300px; /*Largura de 300px*/
     }
 
+    /*BOTÃO*/
     main section button{
-        font-size: 0.75rem;
+        font-size: 0.75rem; /*Tamanho da fonte de 0.75rem*/
     }
 }
 
+/*CELULAR MENOR*/
 @media screen and (max-width:320px) {
+    /*CONTEÚDO DA CALCULADORA*/
     main section{
-        width: 280px;
+        width: 280px; /*Largura de 280px*/
     }
 }

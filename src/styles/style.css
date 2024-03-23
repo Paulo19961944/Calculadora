@@ -1,68 +1,76 @@
+/*ESTILO GLOBAL*/
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Neuton", serif;
-    font-weight: 400;
-    font-style: normal;
+    margin: 0; /*Zera a Margem*/
+    padding: 0; /*Zera o Preenchimento*/
+    box-sizing: border-box; /*Ajusta o elemento na tela*/
+    font-family: "Neuton", serif; /*Fonte do GOOGLE*/
+    font-weight: 400; /*Peso da Fonte*/
+    font-style: normal; /*Estilo Normal*/
       
 }
 
+/*CONTEÚDO DO HTML*/
 body{
-    max-width: 100vw;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #D7D0C8;
+    max-width: 100vw; /*Largura máxima do Viewport*/
+    min-height: 100vh; /*Altura máxima do Viewport*/
+    display: flex; /*Flexbox*/
+    flex-direction: column; /*Alinha em Colunas*/
+    align-items: center; /*Alinha horizontalmente ao centro*/
+    background-color: #D7D0C8; /*Cor de fundo - Branco*/
 }
 
+/*TÍTULO DA PÁGINA*/
 header h1{
-    font-size: 2.027rem;
-    margin: 32px 0;
+    font-size: 2.027rem; /*Tamanho da Fonte - 2.027 rem*/
+    margin: 32px 0; /*Margem de 32px (Top e Bottom) e 0  para as laterais*/
 }
 
+/*CONTEÚDO DA CALCULADORA*/
 main section{
-    background-color: #4C5B5C;
-    width: 350px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #000;
+    background-color: #4C5B5C; /*Cor de fundo cinza*/
+    width: 350px; /*Largura de 350px*/ 
+    height: 400px; /*Altura de 400px*/
+    display: flex; /*Flexbox*/
+    flex-direction: column; /*Alinhamento em Colunas*/
+    align-items: center; /*Alinha horizontalmente ao centro*/
+    border: 1px solid #000; /*Borda sólida de 1px*/
 }
 
+/*DISPLAY*/
 main section .display{
-    font-size: 2.027rem;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    overflow: auto;
-    border: 1px solid #000;
-    background-color: #0f0;
-    margin: 2rem 0;
-    height: 80px;
-    width: 75%;
+    font-size: 2.027rem; /*Tamanho da Fonte 2.027 rem*/
+    display: flex; /*Flexbox*/
+    flex-wrap: nowrap; /*Evita  quebrar a linha*/
+    justify-content: center; /*Alinha Horizontalmente no Centro*/
+    align-items: center; /*Alinha verticalmente ao Centro*/
+    overflow: auto; /*Rolagem caso haja quebra de linha*/
+    border: 1px solid #000; /*Borda de 1px solida e preta*/
+    background-color: #0f0; /*Cor do Display - Verde*/
+    margin: 2rem 0; /*Margem de 2rem (Top e Bottom) e 0 nas laterais*/
+    height: 80px; /*Altura de 80px*/
+    width: 75%; /*Largura de 75% ao elemento pai*/
 }
 
+/*TECLAS DA CALCULADORA*/
 main section .keys{
-    width: 200px;
-    height: 200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 8px;
+    width: 200px; /*Largura de 200px*/
+    height: 200px; /*Altura de 200px*/
+    display: grid; /*Grid*/
+    grid-template-columns: 1fr 1fr 1fr; /*Grid de 3 elementos por linha*/
+    gap: 8px; /*Espaçamento de 8px*/
 }
 
+/*BOTÕES*/
 main section button{
-    border: none;
-    text-align: center;
-    border-radius: 4px;
-    background-color: #D7D0C8;
-    font-size: 1rem;
+    border: none; /*Sem Borda*/
+    text-align: center; /*Alinha texto ao centro*/
+    border-radius: 4px; /*Bordas arredondadas de 4px*/
+    background-color: #D7D0C8; /*Cor de Fundo Branco*/
+    font-size: 1rem; /*Tamanho de 1rem na fonte*/
 }
 
+/*BOTÃO AO PASSAR O MOUSE*/
 main section button:hover{
-    cursor: pointer;
-    transform: scale(1.03);
+    cursor: pointer; /*Mãozinha ao passar o mouse*/
+    transform: scale(1.03); /*Aumenta o botão em 3%*/
 }
