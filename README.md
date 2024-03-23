@@ -19,7 +19,7 @@ Também foi utilizado regra dos 8 e regra dos 4 para espaçamento, arredondament
 
 # JAVASCRIPT
 
-No JavaScript foi selecionado os elementos do HTML e uma função para adicionar o valor ao display e outra pra fazer a limpeza. Foi usado a biblioteca Eval para calcular o que estiver dentro do display e mostrar o resultado na tela. Foi usado exceções caso ocorra algum erro e esse erro é tratado. Foi usado também funções de callback para adicionar eventos ao botão, além de ter usado o Keydown, para o usuário digitar pelo teclado mesmo, pois é mais facil e mais comum em desktops, onde fica mais dificil para o usuário ter que usar o mouse, além de ajudar a ganhar tempo também.
+No JavaScript foi selecionado os elementos do HTML e uma função para adicionar o valor ao display e outra pra fazer a limpeza. Foi usado uma função para calcular o que estiver dentro do display e mostrar o resultado na tela. Foi usado exceções caso ocorra algum erro e esse erro é tratado. Foi usado também funções de callback para adicionar eventos ao botão, além de ter usado o Keydown, para o usuário digitar pelo teclado mesmo, pois é mais facil e mais comum em desktops, onde fica mais dificil para o usuário ter que usar o mouse, além de ajudar a ganhar tempo também.
 
 
 # CONCLUSÃO
