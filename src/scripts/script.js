@@ -20,15 +20,16 @@ function clearDisplay(){
 
 // Função para avaliar a expressão e exibir o resultado
 function calculate() {
-    // Lança um Exceção e trata
     try {
-        result = eval(display.textContent); // Importa a Biblioteca Eval
+        const expression = display.textContent;
+        const evaluate = new Function('return ' + expression); // Cria uma função a partir da expressão
+        result = evaluate(); // Avalia a expressão
         display.textContent = result; // Exibe o resultado na tela
     } catch (error) {
-        // Se ocorrer um erro ao avaliar a expressão, exiba uma mensagem de erro
         alert('Erro na expressão!');
     }
 }
+
 
 // Adiciona ao display o que foi digitado
 numbers.forEach(number => {
