@@ -21,7 +21,7 @@ function clearDisplay() {
 function calculate() {
     try {
         const expression = display.textContent;
-        const sanitizedExpression = expression.replace(/[^-()\d/*+.]/g, ''); // Sanitiza a expressão permitindo apenas caracteres válidos
+        const sanitizedExpression = expression.replace(/[-()\d\/*+.]/g, ''); // Sanitiza a expressão permitindo apenas caracteres válidos
         const evaluate = new Function('return ' + sanitizedExpression); // Cria uma função a partir da expressão sanitizada
         const result = evaluate(); // Avalia a expressão
         display.textContent = result; // Exibe o resultado na tela
